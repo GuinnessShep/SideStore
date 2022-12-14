@@ -3,7 +3,7 @@
 //  AltStore
 //
 //  Created by Riley Testut on 6/4/19.
-//  Copyright © 2019 Riley Testut. All rights reserved.
+//  Copyright © 2019 SideStore. All rights reserved.
 //
 
 import Foundation
@@ -21,6 +21,8 @@ public extension UserDefaults
     
     @NSManaged var firstLaunch: Date?
     @NSManaged var requiresAppGroupMigration: Bool
+    @NSManaged var textServer: Bool
+    @NSManaged var textInputAnisetteURL: String?
     @NSManaged var customAnisetteURL: String?
     @NSManaged var preferredServerID: String?
     

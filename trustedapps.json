@@ -2,7 +2,15 @@
   "version": 1,
   "sources": [
     {
-      "identifier": "io.altstore.example"
+      "identifier": "io.sidestore.example"
+    },
+    {
+      "identifier": "org.provenance-emu.provenance",
+      "sourceURL": "https://provenance-emu.com/apps.json"
+    },
+    {
+      "identifier": "me.oatmealdome.altstore",
+      "sourceURL": "https://altstore.oatmealdome.me"
     },
     {
       "identifier": "com.utmapp.repos.UTM",
@@ -13,16 +21,12 @@
       "sourceURL": "https://flyinghead.github.io/flycast-builds/altstore.json"
     },
     {
-      "identifier": "me.oatmealdome.altstore",
-      "sourceURL": "https://altstore.oatmealdome.me"
-    },
-    {
-      "identifier": "org.provenance-emu.provenance",
-      "sourceURL": "https://provenance-emu.com/apps.json"
-    },
-    {
       "identifier": "dev.crystall1ne.repos.PojavLauncher",
       "sourceURL": "https://alt.crystall1ne.software/"
+    },
+    {
+      "identifier": "eu.pokemmo.altstore",
+      "sourceURL": "https://pokemmo.eu/altstore/"
     }
   ]
 }
